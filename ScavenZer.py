@@ -79,7 +79,7 @@ class SearchPattern():
 		parser.add_argument("-o", action="store_true", help="Show only matched patterns")
 		parser.add_argument("--search", metavar="[SEARCH OBJECT]", nargs=1, help="Possible values: email (default), phone")
 		parser.add_argument("--domain", metavar="[DOMAIN NAME]", nargs=1, help="Specific domain name (e.g. gmail.com). Works only with email search")
-		parser.add_argument("--country-code", metavar="[COUNTRY CODES]", nargs='+', help="Limit phone search to specific countries. If not used, default is US. 'all' can be used as well.")
+		parser.add_argument("--country-code", metavar="[COUNTRY CODES]", nargs='+', help="Limit phone search to specific countries. If not used, default is US. 'all' can be used as well. List of available country codes in https://github.com/Offorensics/Scavenzer")
 
 		# Get arguments
 		args = parser.parse_args()
