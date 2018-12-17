@@ -39,7 +39,9 @@ class SearchPattern():
 				zipfile.BadZipFile,
 				FileNotFoundError,
 				tarfile.ReadError,
-				PermissionError
+				PermissionError,
+				EOFError,
+				OSError
 				)
 
 		# Get operating system name
